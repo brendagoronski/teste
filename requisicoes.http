@@ -1,0 +1,8 @@
+GET http://localhost:5000/perguntas
+###
+POST http://localhost:5000/perguntas/2023302120/1994
+Content-Type: application/json
+
+{
+    "resposta": "4"
+}
